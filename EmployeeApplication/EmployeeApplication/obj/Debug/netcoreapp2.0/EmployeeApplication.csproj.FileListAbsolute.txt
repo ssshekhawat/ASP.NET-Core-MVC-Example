@@ -1,0 +1,11 @@
+E:\VS2017\EmployeeApplication\EmployeeApplication\bin\Debug\netcoreapp2.0\EmployeeApplication.deps.json
+E:\VS2017\EmployeeApplication\EmployeeApplication\bin\Debug\netcoreapp2.0\EmployeeApplication.runtimeconfig.json
+E:\VS2017\EmployeeApplication\EmployeeApplication\bin\Debug\netcoreapp2.0\EmployeeApplication.runtimeconfig.dev.json
+E:\VS2017\EmployeeApplication\EmployeeApplication\bin\Debug\netcoreapp2.0\EmployeeApplication.dll
+E:\VS2017\EmployeeApplication\EmployeeApplication\bin\Debug\netcoreapp2.0\EmployeeApplication.pdb
+E:\VS2017\EmployeeApplication\EmployeeApplication\obj\Debug\netcoreapp2.0\EmployeeApplication.csprojResolveAssemblyReference.cache
+E:\VS2017\EmployeeApplication\EmployeeApplication\obj\Debug\netcoreapp2.0\EmployeeApplication.csproj.CoreCompileInputs.cache
+E:\VS2017\EmployeeApplication\EmployeeApplication\obj\Debug\netcoreapp2.0\EmployeeApplication.AssemblyInfoInputs.cache
+E:\VS2017\EmployeeApplication\EmployeeApplication\obj\Debug\netcoreapp2.0\EmployeeApplication.AssemblyInfo.cs
+E:\VS2017\EmployeeApplication\EmployeeApplication\obj\Debug\netcoreapp2.0\EmployeeApplication.dll
+E:\VS2017\EmployeeApplication\EmployeeApplication\obj\Debug\netcoreapp2.0\EmployeeApplication.pdb

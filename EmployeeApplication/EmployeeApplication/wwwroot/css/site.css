@@ -9,12 +9,8 @@
     padding-left: 15px;
     padding-right: 15px;
 }
-
-/* Set widths on the form inputs since otherwise they're 100% wide */
-input,
-select,
-textarea {
-    max-width: 280px;
+.top-buffer {
+    margin-top: 15px;
 }
 
 /* Carousel */
@@ -27,9 +23,12 @@ textarea {
 .carousel-inner .item img[src$=".svg"] {
     width: 100%;
 }
-.top-buffer {
-    margin-top: 15px;
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
 }
+
 /* Hide/rearrange for smaller screens */
 @media screen and (max-width: 767px) {
     /* Hide captions */
