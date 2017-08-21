@@ -1,0 +1,52 @@
+﻿@model IEnumerable<FirstCRUDApplication.Models.BookViewModel>
+@using FirstCRUDApplication.Models
+@using FirstCRUDApplication.Code
+
+<div class="top-buffer"></div>
+<div class="panel panel-primary">
+    <div class="panel-heading panel-head">Books</div>
+    <div class="panel-body">
+        <div class="btn-group">
+            <a id="createEditBookModal" data-toggle="modal" asp-action="AddEditBook" data-target="#modal-action-book" class="btn btn-primary">
+                <i class="glyphicon glyphicon-plus"></i>  Add Book
+            </a>
+        </div>
+        <div class="top-buffer"></div>
+        <table class="table table-bordered table-striped table-condensed">
+            <thead>
+                <tr>
+                    <th>Name</th>                    
+                    <th>ISBN</th>
+                    <th>Author</th>
+                    <th>Publisher</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                        <td>@Html.DisplayFor(modelItem => item.ISBN)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Author)</td>  
+                        <td>@Html.DisplayFor(modelItem => item.Publisher)</td>                       
+                        <td>
+                            <a id="editBookModal" data-toggle="modal" asp-action="AddEditBook" asp-route-id= "@item.Id" data-target="#modal-action-book" 
+                               class="btn btn-info">
+                                <i class="glyphicon glyphicon-pencil"></i>  Edit
+                            </a>
+                            <a id="deleteBookModal" data-toggle="modal" asp-action="DeleteBook" asp-route-id= "@item.Id" data-target="#modal-action-book" class="btn btn-danger">
+                                <i class="glyphicon glyphicon-trash"></i>  Delete
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+@Html.Partial("_Modal", new BootstrapModel { ID = "modal-action-book", AreaLabeledId = "modal-action-book-label", Size = ModalSize.Medium })
+@section scripts
+{
+    <script src="~/js/book-index.js" asp-append-version="true"></script>
+}
