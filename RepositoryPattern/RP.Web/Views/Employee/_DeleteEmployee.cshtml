@@ -1,0 +1,13 @@
+﻿@model EmployeeViewModel
+@using RP.Web.Models
+
+@using (Html.BeginForm())
+{
+    @Html.Partial("_ModalHeader", new ModalHeader { Heading = "Delete Employee" })
+
+    <div class="modal-body form-horizontal">
+        Are you want to delete @Model.Name?
+    </div>
+    @Html.Partial("_ModalFooter", new ModalFooter { SubmitButtonText = "Delete" })
+}
+

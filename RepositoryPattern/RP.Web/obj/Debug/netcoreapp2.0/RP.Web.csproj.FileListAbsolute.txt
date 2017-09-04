@@ -1,0 +1,13 @@
+E:\VS2017\RepositoryPattern\RP.Web\bin\Debug\netcoreapp2.0\RP.Web.deps.json
+E:\VS2017\RepositoryPattern\RP.Web\bin\Debug\netcoreapp2.0\RP.Web.runtimeconfig.json
+E:\VS2017\RepositoryPattern\RP.Web\bin\Debug\netcoreapp2.0\RP.Web.runtimeconfig.dev.json
+E:\VS2017\RepositoryPattern\RP.Web\bin\Debug\netcoreapp2.0\RP.Web.dll
+E:\VS2017\RepositoryPattern\RP.Web\bin\Debug\netcoreapp2.0\RP.Web.pdb
+E:\VS2017\RepositoryPattern\RP.Web\obj\Debug\netcoreapp2.0\RP.Web.csprojResolveAssemblyReference.cache
+E:\VS2017\RepositoryPattern\RP.Web\obj\Debug\netcoreapp2.0\RP.Web.csproj.CoreCompileInputs.cache
+E:\VS2017\RepositoryPattern\RP.Web\obj\Debug\netcoreapp2.0\RP.Web.AssemblyInfoInputs.cache
+E:\VS2017\RepositoryPattern\RP.Web\obj\Debug\netcoreapp2.0\RP.Web.AssemblyInfo.cs
+E:\VS2017\RepositoryPattern\RP.Web\obj\Debug\netcoreapp2.0\RP.Web.dll
+E:\VS2017\RepositoryPattern\RP.Web\obj\Debug\netcoreapp2.0\RP.Web.pdb
+E:\VS2017\RepositoryPattern\RP.Web\bin\Debug\netcoreapp2.0\RP.Data.dll
+E:\VS2017\RepositoryPattern\RP.Web\bin\Debug\netcoreapp2.0\RP.Data.pdb

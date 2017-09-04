@@ -1,0 +1,36 @@
+﻿@model EmployeeViewModel
+@using RP.Web.Models
+
+<form asp-action="AddEditEmployee" role="form">
+    @await Html.PartialAsync("_ModalHeader", new ModalHeader { Heading =$"{(@Model.Id == 0 ? "Add" : "Edit")} Employee"})
+   
+    <div class="modal-body form-horizontal">
+        <div class="form-group">
+            <label asp-for="FirstName" class="col-lg-3 col-sm-3 control-label"></label>           
+            <div class="col-lg-6">
+                <input asp-for="FirstName" class="form-control" />                
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="LastName" class="col-lg-3 col-sm-3 control-label"></label>  
+            <div class="col-lg-6">
+                <input asp-for="LastName" class="form-control" />                               
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Salary" class="col-lg-3 col-sm-3 control-label"></label>
+            <div class="col-lg-6">
+                <input asp-for="Salary" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="City" class="col-lg-3 col-sm-3 control-label"></label> 
+            <div class="col-lg-6">
+                <input asp-for="City" class="form-control" /> 
+            </div>
+        </div>        
+    </div>
+  @await Html.PartialAsync("_ModalFooter", new ModalFooter { })
+</form>
+
+

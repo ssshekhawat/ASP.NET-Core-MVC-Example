@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace FirstCRUDApplication.DbEntities
+﻿namespace FirstCRUDApplication.DbEntities
 {
     public class Book:BaseEntity
     {

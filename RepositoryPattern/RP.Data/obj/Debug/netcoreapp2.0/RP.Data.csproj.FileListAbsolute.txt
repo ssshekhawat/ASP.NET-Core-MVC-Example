@@ -1,0 +1,9 @@
+E:\VS2017\RepositoryPattern\RP.Data\bin\Debug\netcoreapp2.0\RP.Data.deps.json
+E:\VS2017\RepositoryPattern\RP.Data\bin\Debug\netcoreapp2.0\RP.Data.dll
+E:\VS2017\RepositoryPattern\RP.Data\obj\Debug\netcoreapp2.0\RP.Data.csproj.CoreCompileInputs.cache
+E:\VS2017\RepositoryPattern\RP.Data\obj\Debug\netcoreapp2.0\RP.Data.AssemblyInfoInputs.cache
+E:\VS2017\RepositoryPattern\RP.Data\obj\Debug\netcoreapp2.0\RP.Data.AssemblyInfo.cs
+E:\VS2017\RepositoryPattern\RP.Data\bin\Debug\netcoreapp2.0\RP.Data.pdb
+E:\VS2017\RepositoryPattern\RP.Data\obj\Debug\netcoreapp2.0\RP.Data.dll
+E:\VS2017\RepositoryPattern\RP.Data\obj\Debug\netcoreapp2.0\RP.Data.pdb
+E:\VS2017\RepositoryPattern\RP.Data\obj\Debug\netcoreapp2.0\RP.Data.csprojResolveAssemblyReference.cache
