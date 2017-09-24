@@ -1,0 +1,13 @@
+E:\VS2017\GenericRepository\GRP.Web\bin\Debug\netcoreapp2.0\GRP.Web.deps.json
+E:\VS2017\GenericRepository\GRP.Web\bin\Debug\netcoreapp2.0\GRP.Web.runtimeconfig.json
+E:\VS2017\GenericRepository\GRP.Web\bin\Debug\netcoreapp2.0\GRP.Web.runtimeconfig.dev.json
+E:\VS2017\GenericRepository\GRP.Web\bin\Debug\netcoreapp2.0\GRP.Web.dll
+E:\VS2017\GenericRepository\GRP.Web\bin\Debug\netcoreapp2.0\GRP.Web.pdb
+E:\VS2017\GenericRepository\GRP.Web\bin\Debug\netcoreapp2.0\GRP.Data.dll
+E:\VS2017\GenericRepository\GRP.Web\bin\Debug\netcoreapp2.0\GRP.Data.pdb
+E:\VS2017\GenericRepository\GRP.Web\obj\Debug\netcoreapp2.0\GRP.Web.csprojResolveAssemblyReference.cache
+E:\VS2017\GenericRepository\GRP.Web\obj\Debug\netcoreapp2.0\GRP.Web.csproj.CoreCompileInputs.cache
+E:\VS2017\GenericRepository\GRP.Web\obj\Debug\netcoreapp2.0\GRP.Web.AssemblyInfoInputs.cache
+E:\VS2017\GenericRepository\GRP.Web\obj\Debug\netcoreapp2.0\GRP.Web.AssemblyInfo.cs
+E:\VS2017\GenericRepository\GRP.Web\obj\Debug\netcoreapp2.0\GRP.Web.dll
+E:\VS2017\GenericRepository\GRP.Web\obj\Debug\netcoreapp2.0\GRP.Web.pdb

@@ -1,0 +1,9 @@
+E:\VS2017\GenericRepository\GRP.Data\bin\Debug\netcoreapp2.0\GRP.Data.deps.json
+E:\VS2017\GenericRepository\GRP.Data\bin\Debug\netcoreapp2.0\GRP.Data.dll
+E:\VS2017\GenericRepository\GRP.Data\bin\Debug\netcoreapp2.0\GRP.Data.pdb
+E:\VS2017\GenericRepository\GRP.Data\obj\Debug\netcoreapp2.0\GRP.Data.csprojResolveAssemblyReference.cache
+E:\VS2017\GenericRepository\GRP.Data\obj\Debug\netcoreapp2.0\GRP.Data.csproj.CoreCompileInputs.cache
+E:\VS2017\GenericRepository\GRP.Data\obj\Debug\netcoreapp2.0\GRP.Data.AssemblyInfoInputs.cache
+E:\VS2017\GenericRepository\GRP.Data\obj\Debug\netcoreapp2.0\GRP.Data.AssemblyInfo.cs
+E:\VS2017\GenericRepository\GRP.Data\obj\Debug\netcoreapp2.0\GRP.Data.dll
+E:\VS2017\GenericRepository\GRP.Data\obj\Debug\netcoreapp2.0\GRP.Data.pdb

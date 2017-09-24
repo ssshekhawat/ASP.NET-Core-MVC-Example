@@ -1,0 +1,65 @@
+﻿@model CustomerViewModel
+@using GRP.Web.Models
+
+<form asp-action="AddEditCustomer" role="form">
+    @await Html.PartialAsync("_ModalHeader", new ModalHeader { Heading = $"{(Convert.ToInt32(ViewContext.RouteData.Values["id"]) != 0? "Edit":"Add")} Customer" })
+    <div class="modal-body form-horizontal">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="form-group">
+                    <label asp-for="FirstName" class="col-lg-3 col-sm-3 control-label"></label>
+                    <div class="col-lg-6">
+                        <input asp-for="FirstName" class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LastName" class="col-lg-3 col-sm-3 control-label"></label>
+                    <div class="col-lg-6">
+                        <input asp-for="LastName" class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="col-lg-3 col-sm-3 control-label"></label>
+                    <div class="col-lg-6">
+                        <input asp-for="Email" class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MobileNo" class="col-lg-3 col-sm-3 control-label"></label>
+                    <div class="col-lg-6">
+                        <input asp-for="MobileNo" class="form-control" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="form-group">
+                    <label asp-for="AddressLine" class="col-lg-3 col-sm-3 control-label"></label>
+                    <div class="col-lg-6">
+                        <input asp-for="AddressLine" class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Street" class="col-lg-3 col-sm-3 control-label"></label>
+                    <div class="col-lg-6">
+                        <input asp-for="Street" class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="City" class="col-lg-3 col-sm-3 control-label"></label>
+                    <div class="col-lg-6">
+                        <input asp-for="City" class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Postcode" class="col-lg-3 col-sm-3 control-label"></label>
+                    <div class="col-lg-6">
+                        <input asp-for="Postcode" class="form-control" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @await Html.PartialAsync("_ModalFooter", new ModalFooter { })
+</form>
+
+

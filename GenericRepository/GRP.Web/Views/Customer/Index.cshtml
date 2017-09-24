@@ -1,0 +1,53 @@
+﻿@model IEnumerable<CustomerListingViewModel>
+@using GRP.Web.Models
+@using GRP.Web.Code
+
+<div class="top-buffer"></div>
+<div class="panel panel-primary">
+    <div class="panel-heading panel-head">Customers</div>
+    <div class="panel-body">
+        <div class="btn-group">
+            <a id="createEditCustomerModal" data-toggle="modal" asp-action="AddEditCustomer" data-target="#modal-action-customer" class="btn btn-primary">
+                <i class="glyphicon glyphicon-plus"></i>  Add Customer
+            </a>
+        </div>
+        <div class="top-buffer"></div>
+        <table class="table table-bordered table-striped table-condensed">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Mobile No</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                        <td>@Html.DisplayFor(modelItem => item.MobileNo)</td>
+                        <td>
+                            <a id="editCutomerModal" data-toggle="modal" asp-action="AddEditCustomer" asp-route-id="@item.Id" data-target="#modal-action-customer"
+                               class="btn btn-info">
+                                <i class="glyphicon glyphicon-pencil"></i>  Edit
+                            </a>
+                            <a id="deleteCustomerModal" data-toggle="modal" asp-action="DeleteCustomer" asp-route-id="@item.Id" data-target="#modal-action-customer"
+                               class="btn btn-danger">
+                                <i class="glyphicon glyphicon-trash"></i>  Delete
+                            </a> 
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@Html.Partial("_Modal", new BootstrapModel { ID = "modal-action-customer", AreaLabeledId = "modal-action-customer-label", Size = ModalSize.Large })
+
+@section scripts
+{    
+    <script src="~/js/customer-index.js" asp-append-version="true"></script>
+}
